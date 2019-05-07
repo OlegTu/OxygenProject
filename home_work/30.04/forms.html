@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+    <script>
+        function sizePic() {
+            size = document.getElementById("size") .value;
+            img = document.getElementById("pic") ;
+            img.width = 60 + 20*size;
+        }
+    </script>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>Название страници</legend>
+        <table width="100%" align="center">
+            <tr>
+
+                <td width="200px" height="100px">Поле со списком</td>
+                <td width="150px"><select name="select"
+                            size="1">
+                        <option value="s1">Вариант 1</option>
+                        <option value="s2">Вариант 2</option>
+                        <option value="s3">Вариант 3</option>
+                        <option value="s4">Вариант 4</option>
+                        <option value="s5">Вариант 5</option>
+                    </select>
+                </td>
+
+                <td width="170px">Поиск</td>
+
+                <td width="270px"><input type="search"></td>
+
+                <td><input type="number"
+                           value="3"
+                           min="1" max="5"
+                           step="1">
+                </td>
+                <td><input type="range" min="1" max="10" id="size"
+                            oninput="sizePic()" value="5">
+                </td>
+
+            </tr>
+            <tr>
+                <td height="200px" valign="top">Поле со списком</td>
+                <td valign="top">
+                    <select name="select"
+                            size="5" multiple>
+                        <option value="s1">Вариант 1</option>
+                        <option value="s2">Вариант 2</option>
+                        <option value="s3">Вариант 3</option>
+                        <option value="s4">Вариант 4</option>
+                        <option value="s5">Вариант 5</option>
+                    </select>
+                </td>
+                <td valign="top">Многострочный текст</td>
+                <td valign="top"><textarea cols="30" rows="10">
+
+                </textarea></td>
+                <td valign="top">
+
+                        <input type="radio" name="answer" value="a1">Radio Button<br>
+                        <input type="radio" name="answer" value="a2">Radio Button<br>
+                        <input type="radio" name="answer" value="a3">Radio Button<br>
+                        <input type="radio" name="answer" value="a4">Radio Button
+                </td>
+                <td>
+                    <figure>
+                    <img src="image/dino1.jpg" width="100px"
+                         height="100px" alt="dino" id="pic">
+                    </figure>
+                </td>
+            </tr>
+            <tr>
+                <td height="100px">Цвет</td>
+                <td><input type="color" name="bg" value="#808080">
+                    <input type="submit" value="Выбрать"></td>
+                <td colspan="2"><input type="file" name="photo" multiple accept="image/jpeg"></td>
+                <td><input type="submit"></td>
+                <td><button type="reset">Очистить</button></td>
+
+            </tr>
+            <tr>
+                <td height="50px" colspan="6">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Ad amet aut beatae
+                    blanditiis consectetur cupiditate debitis deleniti
+                    dignissimos dolores, enim, fugiat harum mollitia
+                    nam neque nobis numquam quas soluta</td>
+
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>
