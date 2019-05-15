@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HW 14.05</title>
+
+    <style>
+        input:focus {
+            color: darkmagenta;
+        }
+        a.link:hover {
+            background: red;
+            color: black;
+        }
+        a.link1:active {
+            color: #ff0000;
+        }
+        a.link2:visited {
+            color: #ffa500;
+        }
+        a:link {
+            color: #0023f0;
+        }
+        b:first-child {
+            color: brown;
+        }
+        b:last-child {
+            color: darkblue;
+        }
+        q:lang(de) {
+            quotes: "\201E" "\201c";
+        }
+        q:lang(ru){
+            quotes: "\00AB" "\00BB";
+        }
+        q:lang(en){
+            quotes: "\201C" "\201D";
+        }
+
+
+    </style>
+
+</head>
+<body>
+<p>
+    <a class="link" href="text.html">Описание</a>
+    <a class="link1" href="text.html">Описание</a>
+    <a class="link2" href="text.html">Описание</a>
+</p>
+<form action="">
+    <p><input type="text" value="Текст"></p>
+    <p><input type="text" value="Текст"></p>
+</form>
+<p><b>Lorem ipsum sit amet</b>, consectetur adipisicing elit. Error laboriosam minima voluptatum! Aliquid atque cum
+    debitis delectus deserunt error excepturi ipsam iste, maxime minima molestias porro quis, repellat <b>temporibus
+        vitae.</b></p>
+<p>Немеций: <q lang="de">Die Erde ist rund</q>.</p>
+<p>Русский: <q lang="ru">Земля круглая</q>.</p>
+<p>Французкий: <q lang="en">The Earth is round</q>.</p>
+
+</body>
+</html>
