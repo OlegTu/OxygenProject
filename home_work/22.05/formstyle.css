@@ -1,0 +1,111 @@
+main {
+
+}
+
+.master {
+    display: block;
+    content: "";
+    clear: both;
+}
+div {
+    float: left;
+}
+
+
+
+
+
+
+.div1, .div2, .div3,
+.div4, .div5, .div6 {
+    height: 50px;
+    width: 16.6%
+}
+.div1 {
+     background-color: white;
+    width: 10%;
+ }
+.div2 {
+    background-color: white;
+    width: 15%;
+}
+.div3 {
+    background-color: white;
+    width: 15%;
+}
+.div4 {
+    background-color: white;
+    width: 20%;
+}
+.div5 {
+    background-color: white;
+    width: 15%;
+}
+.div6 {
+    background-color: white;
+    width: 20%;
+}
+
+
+
+
+
+.div1_1, .div2_1, .div3_1,
+.div4_1, .div5_1, .div6_1 {
+    height: 300px;
+    width: 16.6%;
+}
+.div1_1 {
+    background-color: white;
+    width: 10%;
+}
+.div2_1 {
+    background-color: white;
+    width: 15%;
+}
+.div3_1 {
+    background-color: white;
+    width: 15%;
+}
+.div4_1 {
+    background-color: white;
+    width: 20%;
+}
+.div5_1 {
+    width: 15%;
+    background-color: white;
+}
+.div6_1 {
+    width: 20%;
+    background-color: white;
+}
+
+
+
+
+
+.div1_2, .div2_2, .div3_2,
+.div4_2, .div5_2 {
+    height: 50px;
+    width: 20%;
+}
+.div1_2 {
+    background-color: white;
+    width: 10%;
+}
+.div2_2 {
+    background-color: white;
+    width: 15%;
+}
+.div3_2 {
+    background-color: white;
+    width: 35%;
+}
+.div4_2 {
+    background-color: white;
+    width: 15%;
+}
+.div5_2 {
+    width: 20%;
+    background-color: white;
+}
