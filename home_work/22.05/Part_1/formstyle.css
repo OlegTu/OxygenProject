@@ -2,7 +2,7 @@ main {
 
 }
 
-.master {
+.clearfix {
     display: block;
     content: "";
     clear: both;
