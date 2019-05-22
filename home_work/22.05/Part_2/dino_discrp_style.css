@@ -1,0 +1,41 @@
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+.line {
+    background-color: red;
+    width: 85%;
+    height: 70px;
+    text-align: center;
+}
+
+.pic_block {
+    float: left;
+    width: 25%;
+    height: 600px;
+    background-color: #ffa500;
+}
+.tirano_block {
+    float: left;
+    background-color: aqua;
+    text-align: center;
+    width: 60%;
+    height: 150px;
+}
+
+.height_block {
+    background-color: lawngreen;
+    float: left;
+    width: 30%;
+    height: 450px;
+
+
+}
+
+.weight_block {
+    background-color: blueviolet;
+    float: left;
+    width: 30%;
+    height: 450px;
+}
