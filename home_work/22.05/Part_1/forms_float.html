@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <script>
+        function sizePic() {
+            size = document.getElementById("size").value;
+            img = document.getElementById("pic");
+            img.width = 60 + 20 * size;
+            img.height = 60 + 20 * size;
+        }
+    </script>
+</head>
+
+<body>
+<form>
+    <main class="master">
+
+        <main>
+            <div class="div1">Поле со списком</div>
+            <div class="div2">
+                <select name="select"
+                        size="1">
+                    <option value="s1">Вариант 1</option>
+                    <option value="s2">Вариант 2</option>
+                    <option value="s3">Вариант 3</option>
+                    <option value="s4">Вариант 4</option>
+                    <option value="s5">Вариант 5</option>
+                </select>
+            </div>
+            <div class="div3">Поиск</div>
+            <div class="div4">
+                <input type="search">
+            </div>
+            <div class="div5">
+                <input type="number"
+                       value="3"
+                       min="1" max="5"
+                       step="1">
+            </div>
+            <div class="div6">
+                <input type="range"
+                       min="1"
+                       max="10"
+                       id="size"
+                       oninput="sizePic()"
+                       value="5">
+            </div>
+        </main>
+
+        <main>
+            <div class="div1_1">Поле со списком</div>
+            <div class="div2_1">
+                <select name="select"
+                        size="5" multiple>
+                    <option value="s1">Вариант 1</option>
+                    <option value="s2">Вариант 2</option>
+                    <option value="s3">Вариант 3</option>
+                    <option value="s4">Вариант 4</option>
+                    <option value="s5">Вариант 5</option>
+                </select>
+            </div>
+            <div class="div3_1">Многострочный текст</div>
+            <div class="div4_1">
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+            <div class="div5_1"><input type="radio" name="answer" value="a1">Radio Button<br>
+                <input type="radio" name="answer" value="a2">Radio Button<br>
+                <input type="radio" name="answer" value="a3">Radio Button<br>
+                <input type="radio" name="answer" value="a4">Radio Button
+            </div>
+            <div class="div6_1">
+                <figure>
+                    <img src="image/Dino1.jpg" width="100px"
+                         height="100px" alt="dino" id="pic">
+                </figure>
+            </div>
+        </main>
+
+        <main>
+            <div class="div1_2">Цвет</div>
+            <div class="div2_2">
+                <input type="color" name="bg" value="#808080">
+                <input type="submit" value="Выбрать">
+            </div>
+            <div class="div3_2">
+                <input type="file"
+                       name="photo"
+                       multiple accept="image/jpeg">
+            </div>
+            <div class="div4_2"><input type="submit"></div>
+            <div class="div5_2">
+                <button type="reset">Очистить</button>
+            </div>
+        </main>
+
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A commodi dolor fuga fugit porro quidem sit? Ex,
+            non recusandae. Distinctio dolores ea eaque non odit qui voluptate. Aliquid, tenetur veniam. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Aliquam nulla reiciendis veritatis voluptatem? Ab accusamus
+            consequuntur cupiditate excepturi ipsam non quas! Distinctio enim, eveniet explicabo illo nemo rem unde
+            velit.
+        </div>
+
+    </main>
+
+
+</form>
+</body>
+</html>
