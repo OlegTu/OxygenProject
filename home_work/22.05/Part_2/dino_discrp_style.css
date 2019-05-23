@@ -4,7 +4,7 @@
     clear: both;
 }
 .line {
-    background-color: red;
+    background-color: #7d7d7a;
     width: 100%;
     height: 70px;
     text-align: center;
@@ -16,12 +16,12 @@
     float: left;
     width: 30%;
     height: 600px;
-    background-color: #ffa500;
+    background-color: #b2fdff;
 
 }
 .tirano_block {
     float: left;
-    background-color: aqua;
+    background-color: #007878;
     text-align: center;
     width: 70%;
     height: 150px;
@@ -29,7 +29,7 @@
 }
 
 .height_block {
-    background-color: lawngreen;
+    background-color: #fcdc90;
     float: left;
     width: 35%;
     height: 450px;
@@ -37,7 +37,7 @@
 }
 
 .weight_block {
-    background-color: blueviolet;
+    background-color: #7b94e2;
     float: left;
     width: 35%;
     height: 450px;
