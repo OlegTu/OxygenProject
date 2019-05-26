@@ -1,0 +1,27 @@
+@media all and (max-width: 720px) {
+    .container_1 {
+        order: 2;
+    }
+.container_2 {
+    flex-direction: column;
+}
+.pic_block {
+    width: auto;
+    order: 2;
+
+
+}
+.headline_tino {
+    order: 1;
+    flex-grow: 1;
+}
+.dino_weight {
+    height: auto;
+}
+.dino_height {
+    height: auto;
+}
+
+
+
+}
