@@ -6,8 +6,8 @@
     flex-direction: column;
 }
 .pic_block {
-    width: auto;
     order: 2;
+    flex-grow: 1;
 
 
 }
