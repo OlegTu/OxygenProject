@@ -1,0 +1,41 @@
+
+.container_1, .container_2, .container_3{
+    display: flex;
+}
+
+.container_1 {
+    background-color: #7d7d7a;
+    text-align: center;
+    order: 1;
+}
+
+h1, h2{
+     text-align: center;
+ }
+.pic_block {
+    background-color: #ffa500;
+    flex-basis: 20%;
+
+}
+.headline_tino {
+    background-color: blueviolet;
+    flex-basis: 80%;
+    order: 2;
+}
+
+.dino_height {
+    flex-grow: 1;
+    background-color: #7b94e2;
+    height: 500px;
+    text-align: center;
+
+
+}
+.dino_weight {
+    flex-grow: 1;
+    background-color: #fcdc90;
+    height: 500px;
+    text-align: center;
+
+
+}
