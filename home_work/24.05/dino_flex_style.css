@@ -8,6 +8,9 @@
     text-align: center;
     order: 1;
 }
+h1 {
+    width: 100%;
+}
 
 h1, p{
      text-align: center;

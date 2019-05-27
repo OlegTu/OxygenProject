@@ -4,24 +4,29 @@
     }
 
     .container_2 {
-    flex-direction: column;
+        flex-direction: column;
 }
+
     .pic_block {
-    order: 2;
-    flex-grow: 1;
+        order: 2;
+        flex-grow: 1;
+        text-align: center;
 }
+
     .headline_tino {
-    order: 1;
-    flex-grow: 1;
+        order: 1;
+        flex-grow: 1;
 }
+
     .dino_weight {
-    height: auto;
+        height: auto;
 }
+
     .dino_height {
-    height: auto;
+        height: auto;
 }
     figure {
-    position: center;
+
 }
 
 }
