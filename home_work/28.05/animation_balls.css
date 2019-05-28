@@ -1,0 +1,92 @@
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-359deg);
+    }
+
+}
+
+@keyframes spin_reverse {
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+.figure {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.figure_2 {
+    transform: translateX(-20px);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #0075ff;
+    -webkit-animation: spin_reverse 3s linear 0s infinite;
+}
+
+.loading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: spin 2s linear 0s infinite;
+}
+.ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+
+}
+.ball_1 {
+    transform: translate(0px, 60px);
+}
+
+.ball_2 {
+    transform: translate(-60px, 0);
+}
+
+
+.ball_3 {
+    transform: translate(60px, 0);
+}
+
+.ball_4 {
+    transform: translate(0px, -60px);
+}
+
+.ball_5 {
+    transform: translate(45px, -45px);
+}
+
+.ball_6 {
+    transform: translate(-45px, -45px);
+}
+
+.ball_7 {
+    transform: translate(45px, 45px);
+}
+.ball_8 {
+
+    transform: translate(-45px, 45px);
+}
+
+
